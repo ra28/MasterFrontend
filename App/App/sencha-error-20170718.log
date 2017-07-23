@@ -1,0 +1,187 @@
+Sencha Cmd 6.2.2.36 - Crash report
+================================================
+An error occurred while executing the following command: build App
+
+Diagnostic information:
+=======================
+                         app.archivePath : archive                                           
+                      app.bootstrap.base : C:\Users\Maja\Desktop\App\App                     
+                       app.bootstrap.css : bootstrap.css                                     
+               app.bootstrap.microloader : bootstrap.js                                      
+                        app.cache.deltas : true                                              
+                        app.cache.enable : false                                             
+                           app.classpath : app                                               
+                         app.classpath.0 : app                                               
+                    app.classpath.length : 1                                                 
+                          app.config.dir : C:\Users\Maja\Desktop\App\App\.sencha\app         
+             app.development.watch.delay : 250                                               
+                                 app.dir : C:\Users\Maja\Desktop\App\App                     
+              app.fashion.inliner.enable : false                                             
+                           app.framework : ext                                               
+                                  app.id : 97adc186-4b68-4018-b256-6f6e846b5efd              
+                       app.indexHtmlPath : index.html                                        
+                        app.loader.cache : false                                             
+                   app.loader.cacheParam : _dc                                               
+                                app.name : App                                               
+              app.output.appCache.enable : false                                             
+                         app.output.base : C:\Users\Maja\Desktop\App\App/build/${build.environment}/App
+                           app.overrides : overrides                                         
+                         app.overrides.0 : overrides                                         
+                    app.overrides.length : 1                                                 
+             app.production.cache.enable : true                                              
+          app.production.compressor.type : yui                                               
+             app.production.loader.cache : ${build.timestamp}                                
+   app.production.output.appCache.enable : true                                              
+     app.production.output.appCache.path : cache.appcache                                    
+                        app.sass.dynamic : true                                              
+                            app.sass.etc : sass/etc/all.scss                                 
+                          app.sass.etc.0 : sass/etc/all.scss                                 
+                     app.sass.etc.length : 1                                                 
+                  app.sass.generated.src : sass/save                                         
+                  app.sass.generated.var : sass/save.scss                                    
+                      app.sass.namespace : App                                               
+                            app.sass.src : sass/src                                          
+                          app.sass.src.0 : sass/src                                          
+                     app.sass.src.length : 1                                                 
+                            app.sass.var : sass/var/all.scss,sass/var                        
+                          app.sass.var.0 : sass/var/all.scss                                 
+                          app.sass.var.1 : sass/var                                          
+                     app.sass.var.length : 2                                                 
+                               app.theme : theme-triton                                      
+                             app.toolkit : modern                                            
+                             app.version : 1.0.0.0                                           
+                    buildenvironment.dir : C:\Users\Maja\Desktop\App\App                     
+               buildenvironment.load.dir : C:\Users\Maja\Desktop\App\App                     
+                      cmd.architect.mode : true                                              
+                          cmd.config.dir : C:\Users\Maja\bin\Sencha\Cmd\6.2.2.36             
+                                 cmd.dir : C:\Users\Maja\bin\Sencha\Cmd\6.2.2.36             
+                    cmd.framework.minver : 5.5.0                                             
+                   cmd.framework.version : 99.99                                             
+                            cmd.jvm.args : -Xms128m -Xmx1024m -Dapple.awt.UIElement=true     
+              cmd.merge.tool.args.araxis : -wait -merge -3 -a1 {base} {user} {generated} {out}
+              cmd.merge.tool.args.kdiff3 : {base} {user} {generated} -o {out}                
+             cmd.merge.tool.args.p4merge : {base} {user} {generated} {out}                   
+           cmd.merge.tool.args.smartsync : {user} {generated} {base}                         
+          cmd.merge.tool.args.sourcegear : --merge --result={out} {user} {base} {generated}  
+            cmd.merge.tool.args.tortoise : -base:{base} -theirs:{generated} -mine:{user} -merged:{out}
+                              cmd.minver : 3.0.0.0                                           
+                            cmd.platform : windows                                           
+                     cmd.unicode.escapes : C:\Users\Maja\bin\Sencha\Cmd\6.2.2.36/unicode-escapes.json
+                             cmd.version : 6.2.2.36                                          
+                            cmd.web.port : 1841                                              
+                     config.skipDownload : true                                              
+                      config.skipInherit : false                                             
+                        ext.license.name : commercial                                        
+                     framework.build.dir : ${package.output.base}                            
+                     framework.classpath : ${package.dir}/src                                
+                    framework.cmd.minver : 6.5.0.180                                         
+                   framework.cmd.version : 6.5.0.180                                         
+                 framework.compatVersion : 6.5.0                                             
+                    framework.config.dir : C:\Users\Maja\bin\Sencha\Cmd\6.2.2.36\plugins\ext\current
+                       framework.creator : Sencha                                            
+           framework.detailedDescription : Sencha Ext JS JavaScript Framework                
+                           framework.dir : C:\Users\Maja\Desktop\App\App\ext                 
+                  framework.example.apps : admin-dashboard,executive-dashboard,feed-viewer,kitchensink,calendar,classic/desktop,classic/ticket-app,classic/portal,classic/simple-tasks,classic/responsive-app,classic/aria,modern/addressbook,modern/blackberry,modern/energy,modern/stockapp,modern/states,modern/geocongress,modern/oreilly
+                framework.example.apps.0 : admin-dashboard                                   
+                framework.example.apps.1 : executive-dashboard                               
+               framework.example.apps.10 : classic/aria                                      
+               framework.example.apps.11 : modern/addressbook                                
+               framework.example.apps.12 : modern/blackberry                                 
+               framework.example.apps.13 : modern/energy                                     
+               framework.example.apps.14 : modern/stockapp                                   
+               framework.example.apps.15 : modern/states                                     
+               framework.example.apps.16 : modern/geocongress                                
+               framework.example.apps.17 : modern/oreilly                                    
+                framework.example.apps.2 : feed-viewer                                       
+                framework.example.apps.3 : kitchensink                                       
+                framework.example.apps.4 : calendar                                          
+                framework.example.apps.5 : classic/desktop                                   
+                framework.example.apps.6 : classic/ticket-app                                
+                framework.example.apps.7 : classic/portal                                    
+                framework.example.apps.8 : classic/simple-tasks                              
+                framework.example.apps.9 : classic/responsive-app                            
+           framework.example.apps.length : 18                                                
+                  framework.example.path : examples,templates                                
+                framework.example.path.0 : examples                                          
+                framework.example.path.1 : templates                                         
+           framework.example.path.length : 2                                                 
+                        framework.format : 1                                                 
+                          framework.isV5 : true                                              
+                          framework.isV6 : true                                              
+                          framework.name : ext                                               
+                     framework.namespace : Ext                                               
+                        framework.output : ${package.dir}/build                              
+                     framework.overrides : ${package.dir}/overrides                          
+                  framework.packages.dir : C:\Users\Maja\Desktop\App\App\ext/packages/,C:\Users\Maja\Desktop\App\App\ext/modern
+                framework.resource.paths : resources                                         
+              framework.resource.paths.0 : resources                                         
+         framework.resource.paths.length : 1                                                 
+                      framework.sass.etc : ${package.dir}/sass/etc/all.scss                  
+                  framework.sass.fashion : true                                              
+                framework.sass.namespace : Ext                                               
+                      framework.sass.src : ${package.dir}/sass/src                           
+                      framework.sass.var : ${package.dir}/sass/var                           
+        framework.signatures.0.algorithm : SHA1withRSA                                       
+          framework.signatures.0.created : 2017-05-10T18:19:02Z                              
+             framework.signatures.0.name : Sencha                                            
+            framework.signatures.0.nonce : 8njd3noXWXU=                                      
+        framework.signatures.0.signature : BcFr75BI+3vnf/7Hedj5xr0YWtXAeEsa+hcL1bVHSqDtLpW0sy/ADWqozIDRYoV+T9enQUZZLKUjqoBwtnHRGzqo+ur9oU1gGYbi8FwpOFwBI5B3MggKs1atxYSV8e0wSWDVLDyXimXPPKZFjhNOb88GMZwDC9ShjLsNuBsVNWPYSKTTrjODOaqSpU86iNfWqdgh1MKO8Cblq0WTexCQxWX4uKcR0RvBvqiJw7LM3wDUYotaL3R29mGK+3gsAD7VjSBdG9FnY4I12DEHtaGc+8u9/J7crqChtubo74UrjbJb172QatTTZEd+ew/bkzX9DWb6k3ZPxFlTH2vItXxzHg==
+             framework.signatures.0.uuid : 87102297-c972-40fa-afd3-013e5c5637e8              
+             framework.signatures.length : 1                                                 
+                   framework.subpkgs.dir : ${package.dir}                                    
+              framework.subpkgs.packages : classic/classic,modern/modern,packages/charts,packages/amf,packages/soap,packages/ux,packages/google,packages/legacy,packages/font-awesome,packages/font-pictos,packages/font-ext
+            framework.subpkgs.packages.0 : classic/classic                                   
+            framework.subpkgs.packages.1 : modern/modern                                     
+           framework.subpkgs.packages.10 : packages/font-ext                                 
+            framework.subpkgs.packages.2 : packages/charts                                   
+            framework.subpkgs.packages.3 : packages/amf                                      
+            framework.subpkgs.packages.4 : packages/soap                                     
+            framework.subpkgs.packages.5 : packages/ux                                       
+            framework.subpkgs.packages.6 : packages/google                                   
+            framework.subpkgs.packages.7 : packages/legacy                                   
+            framework.subpkgs.packages.8 : packages/font-awesome                             
+            framework.subpkgs.packages.9 : packages/font-pictos                              
+       framework.subpkgs.packages.length : 11                                                
+                       framework.summary : Ext JS                                            
+                          framework.type : framework                                         
+                       framework.version : 6.5.0.775                                         
+                       inspector.address : http://localhost:1839/                            
+                    package.sass.dynamic : true                                              
+                          repo.local.dir : C:\Users\Maja\bin\Sencha\Cmd\repo                 
+                               skip.sass : 1                                                 
+                              skip.slice : 1                                                 
+        system.java.net.useSystemProxies : true                                              
+                              theme.name : theme-triton                                      
+                            toolkit.name : modern                                            
+                     workspace.build.dir : C:\Users\Maja\Desktop\App\App/build               
+                    workspace.config.dir : C:\Users\Maja\Desktop\App\App\.sencha\workspace   
+                           workspace.dir : C:\Users\Maja\Desktop\App\App                     
+           workspace.frameworks.ext.path : C:\Users\Maja\Desktop\App\App\ext                 
+        workspace.frameworks.ext.version : 6.5.0.775                                         
+                  workspace.packages.dir : C:\Users\Maja\Desktop\App\App/packages/local,C:\Users\Maja\Desktop\App\App/packages
+              workspace.packages.extract : C:\Users\Maja\Desktop\App\App/packages/remote     
+
+Exception information:
+=======================
+java.lang.NullPointerException
+     at java.io.File.<init>(Unknown Source)
+     at com.sencha.util.FileUtil.readFile(FileUtil.java:158)
+     at com.sencha.tools.compiler.jsb.projects.JsbBuilder.processBuild(JsbBuilder.java:29)
+     at com.sencha.command.build.JsbCommand.execute(JsbCommand.java:15)
+     at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+     at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+     at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+     at java.lang.reflect.Method.invoke(Unknown Source)
+     at com.sencha.util.MethodInvoker$Arguments.invoke(MethodInvoker.java:175)
+     at com.sencha.cli.Command.dispatch(Command.java:43)
+     at com.sencha.cli.Commands.dispatch(Commands.java:64)
+     at com.sencha.command.Sencha.dispatch(Sencha.java:79)
+     at com.sencha.command.Sencha.main(Sencha.java:147)
+     at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+     at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+     at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+     at java.lang.reflect.Method.invoke(Unknown Source)
+     at com.exe4j.runtime.LauncherEngine.launch(LauncherEngine.java:65)
+     at com.exe4j.runtime.WinLauncher.main(WinLauncher.java:101)
+     at com.install4j.runtime.launcher.WinLauncher.main(WinLauncher.java:26)
+

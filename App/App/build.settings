@@ -1,0 +1,6 @@
+{
+    "webBuild": {
+        "environment": "testing",
+        "publishPath": "D:\\apache-tomcat-8.5.14-windows-x64\\apache-tomcat-8.5.14\\webapps\\app"
+    }
+}
