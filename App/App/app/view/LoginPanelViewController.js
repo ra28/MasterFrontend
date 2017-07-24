@@ -22,14 +22,18 @@ Ext.define('App.view.LoginPanelViewController', {
         //var values = this.getLoginForm().getValues();
         var jsonPost = {};
         var username = 'ana';
-        var password = 'ana';
+        var password = 'misa';
         Ext.Ajax.request({
             url: 'http://localhost:8080/DogAdopter/rest/userservice/login/' +username + '/'+ password,
             method: 'GET',
             success: function(response) {
                 var text = response.responseText;
-                console.log(text);
-                Ext.Viewport.setActiveItem('main-panel');
+                var decodedUser = Ext.JSON.decode(text);
+                console.log(decodedUser);
+                if(decodedUser && username == decodedUser.username && password== decodedUser.password){
+                    Ext.Viewport.setActiveItem('main-panel');
+                }
+
 
             },
             failure: function(response) {
